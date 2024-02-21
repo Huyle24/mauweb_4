@@ -1,0 +1,108 @@
+.navbar-above {
+  font-size: 14px;
+
+  #dropdown-language {
+    .container-img {
+      width: 19px;
+      height: 19px;
+      display: flex;
+      justify-content: center;
+      padding: 5px 3px;
+    }
+  }
+}
+
+.line_stripe {
+  height: 17px;
+  background: white;
+
+  .line_stripe_wrap {
+    width: 100%;
+    height: 17px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background: url(https://namecard.nhanhtravel.com/app-assets/mobile/GoldenSmileTravel/bg-top-menu-main3.png) no-repeat;
+  }
+
+  .line_stripe_righthaft {
+    width: 50%;
+    height: 17px;
+    position: absolute;
+    background: url(https://namecard.nhanhtravel.com/app-assets/mobile/GoldenSmileTravel/bg-top-menu-right.png);
+    right: 0;
+    z-index: 0;
+    background-repeat: repeat-x;
+  }
+}
+
+
+.navbar-behind {
+  font-weight: bold;
+
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding-left: 0 !important;
+  }
+  a {
+    color: #B72028;
+    text-decoration: none;
+  }
+  padding: 10px;
+
+  .navcha:hover .navcon {
+    display: block !important;
+
+  }
+
+  .navcon {
+    display: none !important;
+    z-index: 1000;
+    position: absolute;
+    background-color: #DBA73D;
+    border-radius: 5px;
+    border: 0 solid rgba(0, 0, 0, .15);
+    background-clip: padding-box;
+    text-align: left;
+
+    li a {
+      color: white !important;
+      top: 50%;
+      right: auto;
+      left: 100%;
+      margin-top: 0;
+      margin-left: 0;
+    }
+
+    li a:hover {
+      background-color: #B72028 !important;
+      border-radius: 5px;
+      background-clip: padding-box;
+      border: 0 solid rgba(0, 0, 0, .15);
+
+      .navchau {
+        display: block;
+
+      }
+    }
+
+    .navchau {
+      position: absolute;
+      background-color: #DBA73D;
+      display: none;
+      left: 100%;
+      margin-top: -29px;
+      text-align: left;
+
+      li > a {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+
+
